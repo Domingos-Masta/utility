@@ -16,6 +16,13 @@
       "dom"
     ]
   },
+  "paths":{
+    "@services/*":["src/app/services/*"],
+    "@enviroment/*":["src/enviroments/*"],
+    "@pipes/*":["src/app/pipes/*"],
+    "@shared/*":["src/app/shared/*"],
+    "@components/*":["src/app/components/*"]
+  },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
